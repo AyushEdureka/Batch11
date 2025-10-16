@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ordered List -->
+     <ol type="1">
+        <li>Select Vscode</li>
+        <li>Open Vscode</li>
+        <li>Open Folder</li>
+        <li>Create HTML File</li>
+        <li>Get HTML Structure</li>
+     </ol>
+
+
+     <!-- UNORDERED LIST -->
+
+     <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+     </ul>
+
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing="5" cellpadding="15" align="center" bgcolor="blue">
+       
+        <thead>
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr align="center">
+            <td>01</td>
+            <td>Saddam</td>
+            <td>India</td>
+        </tr>
+
+        <tr align="center">
+            <td>02</td>
+            <td>Romana</td>
+            <td>India</td>
+        </tr>
+
+         <tr align="center">
+            <td>03</td>
+            <td>Emmanuel</td>
+            <td>Ghana</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <iframe width="1200" height="700" src="https://www.youtube.com/embed/xPPLbEFbCAo" title="Restaurant Ad Video Template (Editable)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+   
+</body>
+</html>
