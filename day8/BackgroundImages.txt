@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: cursive;
+            margin: 0;
+        }
+
+        #banner{
+            border: 1px solid black;
+            height: 600px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 2px 4px black;
+            font-size: 30px;
+
+            /* background property */
+            background-color: bisque;
+            background-image: url('https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg');
+            /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFl0N4B2U2X24osjqc_xZ0HsnEP7xjGSaPUQ&s'); */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            /* filter: brightness(60%); */
+            filter: blur(5px);
+                     /* bringhtness < 100 = decrease and rest opp */
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <h1>Cafe . Coffee</h1>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color: beige;
+           font-family: cursive;
+           color: white;
+           text-shadow: 0 4px 6px blue;
+           text-align: center;
+           font-size: 25px;
+
+           background-image: url('https://images.pexels.com/photos/2726370/pexels-photo-2726370.jpeg');
+           background-position: center;
+           background-size: cover;
+           background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Website</h1>
+
+    <div style="height: 1500px;">
+        <h1>Netflix . Chill</h1>
+        <p>Watch Anywhere AnyTime</p>
+        <p>Scroll Down </p>
+    </div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(to right,blue,white);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome With Gradient</h1>
+</body>
+</html>

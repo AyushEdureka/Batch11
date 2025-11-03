@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:100px) and (max-width:480px){
+
+         body{
+            background-color: blue;
+         }
+
+         h1{
+            color: white;
+            font-style: italic;
+         }
+
+        }
+
+
+        @media screen and (min-width:481px) and (max-width:768px){
+
+           body{
+            background-color: red;
+           }
+
+           p{
+            font-size: 25px;
+            color: white;
+           }
+
+
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Responsive Webiste</h1>
+    <p>@media tag is used to help you create Responsive webiste for 
+        all the device
+    </p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header{
+            background-color: crimson;
+            color: white;
+            padding: 2em;
+        }
+
+        nav ul{
+            padding: 0;
+        }
+
+        nav ul li{
+            display: inline;  
+            margin: 10px;
+        }
+
+        li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        main{
+            padding: 1em;
+        }
+
+        footer{
+            background-color: burlywood;
+            color: #fff;
+            padding: 1em;
+        }
+
+
+        /* Style for mobile screen */
+
+        @media  (min-width:0px) and (max-width:600px){
+        
+            nav ul li{
+              display: block;  
+              margin: 10px;
+            }
+
+            main{
+                background-color: lightblue;
+                padding: 0.5em;
+            }
+
+        }
+
+        /* style for tablet  */
+        @media (min-width:601px) and (max-width:1024px){
+
+            main{
+                background-color: gold;
+                color: white;
+            }
+
+             header,footer{
+                padding: 1.5em;
+                background-color: lightblue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Perosnal Page</h1>
+        <nav>
+            <ul type="none">
+                <li><a href="">Home</a></li>
+                 <li><a href="">About</a></li>
+                  <li><a href="">Blog</a></li>
+                   <li><a href="">Conatct</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<article>
+    <h2>Welcome to my Blog</h2>
+    <p>This is a sample Blog! resize
+        your website to check the responsiveness
+    </p>
+</article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Perosnal Blog</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    div{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        animation-name: example;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+    }
+
+
+    /* @keyframes - Animation */
+
+    @keyframes example{
+
+        /* example 1: */
+
+        from {background-color: red;}
+
+        to { background-color: violet;}
+
+    }
+   </style>
+</head>
+<body>
+    <h1>Animation Example</h1>
+    <p><strong>Note:</strong>   Once done ,Animation goes back to original effect </p>
+    <div></div>
+</body>
+</html>

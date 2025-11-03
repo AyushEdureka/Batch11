@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 15px;
+            position: static;
+        }
+    </style>
+</head>
+<body>
+    <h2>Static Position - Student in seats</h2>
+    <div class="box">Student 1</div>
+
+    <div class="box">Student 2</div>
+    
+    <div class="box">Student 3</div>
+
+    <div style="height: 1000px;"></div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px;
+            position: relative;
+            left: 200px;
+            top: 100px;
+        }
+
+        h2{
+            position: relative;
+            top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Relative Position- </h2>
+
+    <div class="box">Leaning student</div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .guard{
+        width: 50px;
+        height: 50px;
+        background: gold;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        border-radius: 50%;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <h2>Fixed Position- Cannot move </h2>
+    <div class="guard">🛒</div>
+    <div style="height: 1500px; background-color: lightblue;">
+        <h2>Hii I will Move from Above</h2>
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: coral;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+           
+        }
+
+       
+    </style>
+</head>
+<body>
+    <!-- Sticky = relative(Move) + fixed (cannot move)-->
+
+    <h2>Sticky Position</h2>
+    <div style="height: 150px; background-color: yellow;"></div>
+
+    <div class="header">
+        Sticky Student
+    </div>
+
+    <div id="Hello" style="height: 1500px; background-color: lightblue;">Scroll Down
+         <h2>Hii I will Move from Above</h2>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello learner</h1>
+    <img src="data:image/jpeg;base64,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">
+    <p>Beacse z index img has value -1</p>
+</body>
+</html>
